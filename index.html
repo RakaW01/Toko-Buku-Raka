@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Usaha Buku Raka</title>
+<link rel ="stylesheet" href ="style.css"/>
+<nav class="navbar">
+ <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="produk.html">Produk</a></li>
+    <li><a href="Bedah Buku Artikel.html">Bedah Buku Artikel</a></li>
+    <li><a href="Testimoni.html">Testimoni</a></li>
+    <li><a href="Tampil Testimoni.html">Tampil Testimoni</a></li>
+    <li><a href="Video Produk Event.html">Video Produk Event</a></li>
+    <li><a href="Kontak.html">Kontak</a></li>
+  </ul>
+</nav>
+</head>
+<body>
+  <body>
+  <section class="daftar-produk">
+  <div class="produk">
+  <img src="Image/Buku 5 Menara.jpg">
+ <div class="container">
+  <div class="stat-card">
+    <span class="counter" data-target="100">0</span>
+    <span class="label">Pengunjung Puas</span>
+  </div>
+
+  <div class="stat-card">
+    <span class="counter" data-target="99">0</span>
+    <span class="label">Data Pengunjung</span>
+  </div>
+
+  <div class="stat-card">
+    <span class="counter" data-target="99">0</span>
+    <span class="label">Buku Favorit</span>
+  </div>
+
+  <div class="stat-card">
+    <span class="counter" data-target="95">0</span>
+    <span class="label">Pengunjung Terbaik</span>
+  </div>
+
+  <div class="stat-card">
+    <span class="counter" data-target="99"></span>
+    <span class="label">Pengunjung Positif</span>
+  </div>
+</div>
+<script>
+  const counters = document.querySelectorAll('.counter');
+  
+  counters.forEach(counter => {
+    const updateCount = () => {
+      const target = +counter.getAttribute('data-target');
+      const count = +counter.innerText;
+      
+      // Mengatur durasi animasi agar halus
+      const speed = 150; 
+      const increment = target / speed;
+
+      if (count < target) {
+        counter.innerText = Math.ceil(count + increment);
+        setTimeout(updateCount, 15);
+      } else {
+        counter.innerText = target;
+      }
+    };
+
+    updateCount();
+  });
+</script>
+    <h1>Selamat Datang di Usaha Buku Raka</h1>
+    <h2>Di website kami, Anda bisa dengan mudah menemukan berbagai pilihan buku yang siap menemani waktu membaca. Mulai dari koleksi terbaru, buku favorit banyak pembaca, hingga judul-judul menarik dari berbagai genre.</h2>
+    <p>Website ini juga menyediakan informasi lengkap seputar buku, seperti ulasan dan bedah buku, serta testimoni dari pelanggan yang sudah berbelanja bersama kami.</p>
+<p>Tampilan website dirancang bersih, rapi, dan menenangkan agar nyaman di mata, terutama bagi para pecinta buku. Kami menggunakan tipografi yang mudah dibaca dengan sentuhan modern, sehingga aktivitas membaca terasa lebih menyenangkan. Palet warna hangat seperti krem, nuansa kayu, dan biru tua dipilih untuk menciptakan suasana yang nyaman dan berkelas.
+
+Untuk memudahkan pencarian, navigasi website disusun secara sederhana dan terstruktur, dengan kategori seperti Genre, Penulis, Buku Terlaris, dan Rilisan Terbaru. Semua dirancang agar Anda bisa menemukan buku favorit dengan cepat dan nyaman📚✨.
+
+
+<h1>Mengenal Ukuran Buku by Raka</h1>
+<p>Ukuran Buku adalah sebuah platform kurasi literatur yang lahir dari kecintaan Raka terhadap buku sebagai karya intelektual sekaligus objek estetis. Di sini, pembaca dapat menemukan pilihan buku berkualitas, mulai dari sastra, komik, hingga seni, termasuk judul-judul yang jarang ditemui di toko buku mainstream.
+
+Dengan kurasi yang personal dan tampilan visual yang rapi serta minimalis, Ukuran Buku tidak hanya menjadi tempat mencari buku, tetapi juga ruang berbagi rekomendasi, kutipan, dan diskusi hangat bagi sesama pecinta literasi. 📚✨.</p>
+<h1>Jenis Jenis Buku by Raka</h1>
+<p>Buku yang isinya berasal dari imajinasi penulis, meskipun terkadang terinspirasi dari kejadian nyata.
+Novel: Cerita panjang dengan alur yang kompleks dan karakter yang berkembang (contoh: Laskar Pelangi).
+Novel Grafis & Komik: Cerita yang disampaikan melalui perpaduan teks dan ilustrasi gambar.
+Antologi Cerpen: Kumpulan cerita pendek dalam satu buku.
+Puisi/Sajak: Karya sastra yang mementingkan rima, ritme, dan keindahan bahasa.
+Fiksi Sejarah: Cerita rekaan yang berlatar belakang peristiwa sejarah nyata.
+Fantasi & Sci-Fi: Cerita tentang dunia sihir atau masa depan dengan teknologi canggih.</p>
+<h1>Tips Merawat Buku by Raka</h1>
+<p>Bersihkan Debu Secara Rutin: Gunakan kemoceng bulu ayam yang lembut atau kain mikrofiber kering untuk membersihkan bagian atas buku. Lakukan setidaknya seminggu sekali.
+Hapus Noda Pensil: Jika ada coretan pensil, gunakan penghapus yang sangat lembut secara perlahan agar kertas tidak robek.
+Buka Buku Secara Berkala: Jangan biarkan buku tertutup selama bertahun-tahun. Sesekali buka dan balik halamannya agar kertas tidak lengket dan mendapatkan udara</p>
+<H1>Informasi mencari buku terbaik </H1>
+<p>Jika Anda menyukai satu buku, kemungkinan besar Anda akan menyukai karya lain dari penulis yang sama atau penerbit yang memiliki selera serupa.
+Penerbit Berkualitas: Di Indonesia, penerbit seperti Gramedia Pustaka Utama (GPU), Marjin Kiri, Mooi, atau Kepustakaan Populer Gramedia (KPG) sering kali memiliki standar kurasi yang tinggi.
+Lingkaran Penulis: Lihat siapa yang memberikan kutipan (blurb) di sampul belakang buku. Penulis hebat biasanya memberikan rekomendasi untuk buku-buku yang mereka anggap setara kualitasnya.</p>
+<h1>Lokasi Toko Kami</h1>
+<p>Tersembunyi di antara ramainya aktivitas warga Surabaya, tepatnya di kawasan Jalan Petemon, toko kami hadir sebagai kejutan kecil yang menenangkan. Meski berada di jalur yang tidak langsung mencuri perhatian, begitu melangkah masuk suasananya terasa lebih teduh dan bersahabat. Lingkungan sekitar yang khas perkampungan kota memberi nuansa hangat, seolah mengajak siapa pun untuk berhenti sejenak dari hiruk-pikuk jalan besar. Di sinilah tempat yang pas untuk singgah, menikmati suasana sederhana namun nyaman, dan menemukan pengalaman yang berbeda di balik ramainya Surabaya. 🌿✨.</p>
+<h1>Kontak Admin Toko</h1>
+<p>✨ Mau tanya-tanya dulu? Boleh banget!
+Langsung chat Admin kami di WhatsApp
+👉 081235662814</p>
+</body>
+</html>
